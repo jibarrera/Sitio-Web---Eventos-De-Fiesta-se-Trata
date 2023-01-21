@@ -1,0 +1,609 @@
+*{box-sizing: border-box;}
+
+
+body{
+    width: 100%;
+    height:2000px;
+    background-color:#FFFFFF;
+    overflow-x: hidden;
+    
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 3000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:10px;
+    width: 100%;
+    height: 100px;
+    background-color: #8ACFCF;
+    font-weight:inherit;
+    box-shadow: 1px 1px 5px grey ;
+}
+
+.navbar-nav{
+    margin-left: 8%;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 15px 20px;
+    font-size: 14px;
+    color:#FFFFFF;
+    padding: 10px 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+}
+
+
+.nav-item:hover{
+    color: black;
+}
+
+.navbar-brand{
+    display:flex;
+    content:url("../img/logo.jpg");
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 20%;
+    border-radius: 50% ;
+}
+
+.navbar-brand img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 80px;
+}
+
+
+main{
+    width: 100%;
+    height: 1000px;
+    margin-top:30px;
+    position: relative;
+}
+
+
+.izquierda{
+    width: 47%;
+    height: 700px;
+    background-image: url(../img/instaprint-4.jpg);
+    position: absolute;
+    left: 0;
+    top:0px;
+    background-size: cover;}
+
+.izquierda img{
+    width: 60%;
+    height: 700px;
+    margin: 0px 500px;
+    background-size: cover;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.principal{
+    width: 25%;
+    background-color:#C3F1F1;
+    height: 700px;
+    position: absolute;
+    top:0px;
+    left:745px;
+   
+}
+
+
+.principal p{ text-align: center; line-height: 25px;}
+
+.derecha{
+    width:35%;
+    background-image: url(../img/instaprint-3.jpg);
+    background-color: darkmagenta;
+    height: 700px;
+    position: absolute;
+    top:0;
+    left: 1141px;
+    background-size: cover;
+}
+
+.derecha img{
+    width: 30%;
+    height: 700px;
+}
+
+.titulo h2{
+    z-index: 1000;
+    font-family:'Aref Ruqaa Ink', serif;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    top:50px;
+    left:100px;
+    font-weight: normal;
+}
+
+ .titulo .titulo_h2{
+    width: 260px;
+    height: 32px;
+    background-color: #fff;
+    position: absolute;
+    top:72px;
+    left:75px;
+   
+}
+
+.subtitulo {
+    position: absolute;
+    font-family:'Aref Ruqaa Ink', serif;
+    font-size: 20px;
+    top:120px;
+    left:40px;
+    color: black;
+}
+
+.parrafo {
+    width: 300px;
+    height: 350px;
+    text-align: justify;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.titulo-1{
+    width: 100%;
+}
+
+.titulo-1 h2{
+    z-index: 1000;
+    font-family:'Aref Ruqaa Ink', serif;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    top:750px;
+    left:300px;
+    font-weight: normal;
+   
+}
+
+.titulo-1 .titulo-h2{
+    width: 1050px;
+    height: 32px;
+    background-color: #78DDDD;
+    position: absolute;
+    top:770px;
+    left:280px;
+   
+}
+
+
+.galeria-instaprint{
+    width: 1050px;
+    height: 680px;
+    background-color: #C3F1F1;
+    position: absolute;
+    top:830px;
+    left:280px;}
+
+
+    .carousel-inner img {
+        width: 100%;
+        max-height: 620px;
+    } 
+    
+    .carousel-inner{
+     height: 700px;
+    }
+
+    footer{
+        width: 100%;
+        height: 470px;
+        background-color:#8ACFCF;
+        position: absolute;
+        top:1700px;
+    }
+    
+    
+    .imagen-footer img{
+        width: 130px;
+        height:130px;
+        border-radius: 50%;
+        position: absolute;
+        left: 295px;
+        top:55px;
+    }
+    
+    .imagen-footer .text1{
+        position: absolute;
+        left: 280px;
+        top:210px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 15px;
+        color:#004C56;
+        font-weight: bolder;
+    }
+    
+    .imagen-footer .text2{
+        position: absolute;
+        left: 280px;
+        top:250px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 15px;
+        color:#004C56;
+        font-weight: bolder;
+    }
+    
+    .imagen-footer .text3{
+        position: absolute;
+        left: 280px;
+        top:290px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 15px;
+        color:#004C56;
+        font-weight: bolder;
+    
+    }
+    
+    .text1:hover{
+        color:red ;
+    
+    } 
+    
+    .text2:hover{
+        color: red;
+    }
+    
+    .text3:hover{
+        color: red;;
+    }
+    
+    
+    .linea-vertical{
+        border-left: 1px solid #004C56;
+        height: 250px;
+        position: absolute;
+        left: 500px;
+        top:70px;
+    }
+    
+    
+    .redes h1{
+        position: absolute;
+        top:70px;
+        left: 540px;
+        font-family: 'Aref Ruqaa Ink', serif;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #004C56;
+    }
+    .redes h1:hover{
+        color: #fff;
+    
+    }
+    
+    
+    .redes img{
+        width: 30x;
+        height: 30px;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-right: 15px;
+        margin-top:100px;
+        justify-content:center;
+    
+    }
+    
+    .redes img:hover{
+        background-color:red;
+        transform: scale(1.2);
+        color: red;
+    }
+    
+    .contactos{
+        position: absolute;
+        top:55px;
+        left:550px;
+    }
+    
+    .contactos img:hover{
+        size: 100px;
+        background-color: darkgray;
+    }
+    
+    .linea-vertical1{
+        border-left: 1px solid #004C56;
+        height: 250px;
+        position: absolute;
+        left: 780px;
+        top:70px;
+    
+    }
+    
+    
+    .horarios{
+        width: 250px;
+        position: absolute;
+        left: 50px;
+        top:0px;
+        font-size: 15px;
+        font-family: 'Aref Ruqaa Ink', serif;
+        color:#004C56;
+        font-weight: bolder;
+    }
+    
+    .horarios h1{
+        font-size: 20px;
+        color: #004C56;
+        font-weight: bolder;
+    }
+    
+    .horarios h1:hover{
+        color: #fff;
+        font-weight: bolder;
+    }
+    
+    .horarios p:hover{
+        font-size: 18px;
+        color: red;
+    }
+    
+    
+    
+    .linea-vertical2{
+        border-left: 1px solid #004C56;
+        height: 250px;
+        position: absolute;
+        left: 320px;
+        top:0px;
+    
+    }
+    
+    
+    .datos{
+        position: absolute;
+        top:0px;
+        left:350px;
+        width: 500px;
+      
+    }
+    
+    .datos h2{
+        font-size: 20px;
+        color:#004C56;
+        font-weight: bolder;
+        font-family: 'Aref Ruqaa Ink', serif;
+        text-align: left;
+    }
+    
+    
+    .datos h2:hover{
+        color:#fff;
+        font-weight: bolder;
+    }
+    
+    
+    .datos span{
+        font-size: 15px;
+        font-family: 'Aref Ruqaa Ink', serif;
+        margin-left: 10px;
+        font-weight: bolder;
+    }
+    
+    .datos span:hover{
+        color:red;
+    }
+    
+    .mapa-ubicacion{
+        width: 20px;
+        height: 20px;
+        color: black;
+    }
+    
+    img:hover{
+        filter: opacity(0.8) brightness(0 0 0 red); 
+    }
+    
+    
+    .mapa-ubicacion img{
+        top:300px;
+        left: 1120px;
+        font-size:10px;
+    }
+    
+    img:hover{
+        color: red;
+    }
+    
+    .fa-phone{
+        top:300px;
+        left:1120px;
+        font-size: 20px;
+    }
+    
+    .datos .phone{
+        font-size: 15px;
+        font-family: 'Aref Ruqaa Ink', serif;
+        margin-left: 10px;
+        
+    }
+    
+    
+    
+    .fa-phone:hover{
+        color: red;
+    }
+    
+    
+    .fa-envelope:hover{
+        color: red;
+    }
+    
+    .datos .email{
+        font-size: 15px;
+        margin-left: 10px;
+        font-family: 'Aref Ruqaa Ink', serif;
+        
+    }
+    
+    
+    .horizontal{
+        width: 70%;
+        height: 1px;
+        background-color:#004C56;
+        opacity: 0.5;
+        position: absolute;
+    
+        margin-top: 950px;
+        margin-left:250px;
+        margin-right:20px;
+    
+    }
+    
+    .copyright{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top:2090px;
+        right:330px;
+        color: #004C56;
+    }
+    
+    .copyright p{
+        text-align: center;
+        line-height: 20px;
+        font-family: 'Aref Ruqaa Ink', serif;
+    }
+    
+    .copyright a{
+        color: red;
+    
+    }
+    
+    .copyright a:hover{
+        color:#fff;
+    }
+    
+    
+    .social-icons{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top:2090px;
+    }
+    
+    
+    .social-icons
+    {
+      padding-left:1150px;
+      margin-bottom:0;
+      list-style:none;
+      padding-bottom: -200px;
+    }
+    .social-icons li
+    {
+      display:inline-block;
+      margin-bottom:4px;
+    }
+    .social-icons li.title
+    {
+      margin-right:15px;
+      text-transform:uppercase;
+      color:#96a2b2;
+      font-weight:700;
+      font-size:13px;
+    }
+    
+    
+    .social-icons a{
+        background-color:#eceeef;
+        color:#818a91;
+        font-size:16px;
+        display:inline-block;
+        line-height:44px;
+        width:44px;
+        height:44px;
+        text-align:center;
+        margin-right:10px;
+        border-radius:100%;
+        -webkit-transition:all .2s linear;
+        -o-transition:all .2s linear;
+        transition:all .2s linear;
+    }
+    
+    .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+    {
+      color:#fff;
+      background-color:#29aafe;
+    }
+    .social-icons.size-sm a
+    {
+      line-height:34px;
+      height:34px;
+      width:34px;
+      font-size:14px;
+    }
+    .social-icons a.github:hover
+    {
+      background-color:#3B008A;
+    }
+    .social-icons a.whatsapp:hover
+    {
+      background-color:#3AB12F;
+    }
+    .social-icons a.linkedin:hover
+    {
+      background-color:#007bb6;
+    }
+    .social-icons a.email:hover
+    {
+      background-color:#ea4c89;
+    }
+    
+    
+    
+    @media (max-width:767px)
+    {
+      .social-icons li.title
+      {
+        display:block;
+        margin-right:0;
+        font-weight:600;
+      }
+    }
+    
+    
+    #btn{
+    
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        right:-10px;
+        position: fixed;
+    }
+    
+    #btn #img{
+        height: 60px;
+        width: 60px;
+    
+    }
+    
+
+
+
+
+
+
+
